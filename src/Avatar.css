@@ -1,0 +1,29 @@
+.avatar {
+    box-shadow: 10px 5px 5px rgb(185, 185, 185);
+    border-radius: 15px;
+    width: 200px;
+    margin: 30px 0;
+}
+
+.lower-avatar {
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+.lower-avatar p {
+    transform: translateY(-50%);
+}
+
+.donuts-btn {
+    height: 35px;
+    width: 50px;
+
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+}
+.donuts-btn:hover {
+    cursor: pointer;
+    background-color: lightgray;
+}
